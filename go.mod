@@ -3,7 +3,7 @@ module github.com/Yostardev/json
 go 1.19
 
 require (
-	github.com/goccy/go-json v0.9.11
+	github.com/goccy/go-json v0.10.2
 	github.com/json-iterator/go v1.1.12
 )
 
