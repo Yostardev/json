@@ -1,9 +1,9 @@
 module github.com/Yostardev/json
 
-go 1.20
+go 1.22
 
 require (
-	github.com/bytedance/sonic v1.10.2
+	github.com/bytedance/sonic v1.11.3
 	github.com/goccy/go-json v0.10.2
 	github.com/json-iterator/go v1.1.12
 )
