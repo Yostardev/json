@@ -1,12 +1,11 @@
 //go:build jsoniter
-// +build jsoniter
 
 package json
 
 import jsoniter "github.com/json-iterator/go"
 
 var (
-	json = jsoniter.ConfigCompatibleWithStandardLibrary
+	json = jsoniter.ConfigFastest
 	// Marshal is exported by gin/json package.
 	Marshal = json.Marshal
 	// Unmarshal is exported by gin/json package.

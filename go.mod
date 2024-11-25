@@ -3,7 +3,7 @@ module github.com/Yostardev/json
 go 1.22
 
 require (
-	github.com/bytedance/sonic v1.12.3
+	github.com/bytedance/sonic v1.12.5
 	github.com/goccy/go-json v0.10.3
 	github.com/json-iterator/go v1.1.12
 )
